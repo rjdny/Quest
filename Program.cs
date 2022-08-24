@@ -46,6 +46,7 @@ namespace Quest
             Console.WriteLine("Please enter your name: ");
             string username = Console.ReadLine();
             Adventurer theAdventurer = new Adventurer(username);
+            
 
             // A list of challenges for the Adventurer to complete
             // Note we can use the List class here because have the line "using System.Collections.Generic;" at the top of the file.
